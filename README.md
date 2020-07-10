@@ -4,7 +4,7 @@
 
 ```terraform
 module instance_tags {
-  source  = "agisoft/tags/null"
+  source  = "agisoft-cloud/tags/null"
   version = "1.0.0"
   name    = "my-server-name"
   testing = "yes"
